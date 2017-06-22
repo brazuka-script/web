@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BrazukaScript">
+</Property><Property Name="Arquivo de Solução" Value="C:\Users\AlbertoSam\Documents\SQL Server Management Studio\Projects\BrazukaScript.ssmssln">
+</Property><Property Name="Date" Value="terça-feira, 28 de agosto de 2012">
+</Property><Property Name="Time" Value="10:30">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="BrazukaScript.ssmssln" Description="O backup do arquivo como C:\Users\AlbertoSam\Documents\SQL Server Management Studio\Projects\Backup\BrazukaScript.ssmssln foi feito com êxito">
+</Event><Event ErrorLevel="0" Project="" Source="BrazukaScript.ssmssln" Description="Solução convertida com êxito">
+</Event><Event ErrorLevel="3" Project="" Source="BrazukaScript.ssmssln" Description="Converted">
+</Event></UpgradeLog>

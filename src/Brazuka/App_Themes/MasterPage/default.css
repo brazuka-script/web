@@ -1,0 +1,239 @@
+﻿/*******************************************Tags HTML*******************************************/
+body { margin: 0px; background-color:#2E5679; }
+
+a { text-decoration:none; cursor:pointer; }
+
+a:link {color:#2E5679;}    /* unvisited link */
+a:visited {color:#2E5679;} /* visited link */
+a:hover {color:Red;}   /* mouse over link */
+a:active {color:Green;}  /* selected link */
+
+
+/*******************************************Containers*******************************************/
+.container
+{
+    border: thin #000000 solid;
+    width: 900px;
+    /*height: 140px;
+    position: relative;*/
+    margin-left: auto;
+    margin-right: auto;
+    top: 5px;
+    background-color:White;
+}
+
+#container_header { top: -1px; width: 100%; border: none; height: 140px; vertical-align: middle; position: relative; }
+
+#container_principal  
+{
+    border-radius: 15px; 
+    /*height: 550px; */
+    background-image: url('../../Images/bandeira.jpg'); 
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%; /* Firefox 3.6 */
+    background-repeat:no-repeat;
+    position:absolute;
+    top:10px;
+    /*opacity:0.4;
+filter:alpha(opacity=40);  For IE8 and earlier */ }
+
+#container_texto, #ctl00_cphConteudo_container_texto_full_width,#container_texto_full_width, #ctl00_cphConteudo_container_texto_full_width_height
+{
+    padding:-20px;
+    border-radius: 10px;
+    width: 580px;
+    /*height: 350px;*/
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    top:10px;
+}
+
+#ctl00_cphConteudo_container_texto_full_width, #container_texto_full_width { width: 856px; height: 450px; }
+
+#ctl00_cphConteudo_container_texto_full_width_height { width: 856px; margin-bottom: 25px; }
+
+#container_user_home, #ctl00_cphConteudo_container_user_home, #ctl00_cphConteudo_udpContainer_user
+{
+    border-radius: 10px;
+    width: 250px;
+    height: 380px;
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+    top:10px;
+}
+#ctl00_cphConteudo_udpContainer_user{ top:0; margin-right:0;}
+
+#container_texto { top:10px; height: 380px;}
+
+#container_links
+{
+    border-radius: 10px;
+    margin:20px;
+    width:856px;
+    height:100px;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-top: -5px;
+    /*display:none;*/
+}
+
+/*#ctl00_cphConteudo_shade, .modal, #ctl00_cphConteudo_modalTitle  { display: none; }*/
+
+#ctl00_cphConteudo_shade, #shadeUpdate
+{ 
+    position: fixed; 
+    z-index: 100; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;  
+    background: silver; 
+    opacity: 0.5; 
+    filter: alpha(opacity=50); 
+}
+
+#shadeUpdate
+{ 
+    opacity: 0.8; 
+    filter: alpha(opacity=80); 
+    background: white; 
+    z-index: 300;
+} 
+#modalUpdate { position: fixed; z-index: 301; top: 175px; left: 35%; width: 400px; }
+
+/*#container_modal*/
+.modal, #ctl00_cphConteudo_modalTitle
+{
+    position: fixed;
+    left: 35%;
+    width:400px;
+    border: medium solid black;
+    text-align:center;
+}
+#ctl00_cphConteudo_modalTitle  
+{
+    z-index: 102; 
+    top: 123px;
+    height:50px; 
+    font-size: 10px; 
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 0px 5px 10px #000000;
+    color:Yellow; 
+    background-color:Green;
+}
+.modal 
+{ 
+    border-radius: 10px;
+    -moz-border-radius: 10px; 
+    height:200px; 
+    background-color:#FFFF33; 
+    z-index: 101; 
+    top: 168px; 
+}
+#ctl00_cphConteudo_margem, #margem
+{
+    margin:10px;
+}
+
+/*#ctl00_cphConteudo_grvAlgoritmos
+{
+    width:100%
+}*/
+/*******************************************Menus*******************************************/
+.header_menu
+{
+    /*margin-left:10px;*/
+    padding: 10px 40px 10px 40px;
+    background-color: #2E5679;
+    color: White;
+    font-size: 12px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    /*vertical-align: middle;*/
+    box-shadow: 2px 3px 5px 2px #000000;
+}
+
+#menu_principal { margin: 5px; position: relative; height: 40px; text-align: center; }
+
+#menu_principal a:link { color:#FFFFFF; }
+
+#menu_principal a:visited { color:#FFFFFF; } /* visited link */
+
+#menu_principal a:hover { color:Yellow; background-color:Green; } /* mouse over link */
+
+#menu_principal a:active { color:Green; background-color:Yellow; } /* selected link */
+
+
+/*******************************************Images*******************************************/
+#ctl00_logo_principal { margin: 10px; position: relative; top: 0px; left: 0px; }
+
+#canvas { position: relative; border-top-left-radius: 15px; border-top-right-radius: 15px; overflow:visible; }
+
+#logoDownload { }
+
+/*#lblModalTitle
+{
+    font-size: 20px;
+    margin-top:10px;
+}*/
+
+/*#lblInfoModal { margin-top: 70px; }*/
+
+.imgQuemSomos { width:70px; height:70px; margin-left:5px; margin-top:20px; }
+
+
+/*******************************************Links*******************************************/
+.lnkBlue { color:Blue; }
+
+.lnkRed { color:Red; }
+
+#ctl00_cphConteudo_lnkSair { float:right; margin-right: 5px; color:Red;}
+
+
+/*#ctl00_cphConteudo_lblLinksClose { display:none; cursor:pointer; }
+
+#ctl00_cphConteudo_lblLinks { cursor:pointer; }*/
+
+/*#lnkLabels { position: relative; float: left; margin-top: 30px; margin-left: 20px; margin-bottom: -30px; }*/
+
+
+/*******************************************Controles*******************************************/
+/*#btnCloseModal { margin: 150px 65.3px 10px 65.3px; position:fixed; }*/
+
+/*.RememberPsw 
+{
+    display:none;
+}
+.Signin
+{
+    display:none;
+}*/
+
+/*******************************************Títulos*******************************************/
+
+#lblLinksInteressantes
+{
+    margin-bottom:5px;
+    margin-top:0px;
+}
+
+/*******************************************Funções Gerais*******************************************/
+.right { text-align:right; }
+.left { text-align:left; }
+.Mright { margin-right: 0px; }
+.center { text-align: center; }
+.justify { text-align: justify; }
+.fixed { position:fixed; }
+.margem5 { margin:5px; }
+.relative { position: relative; }
+.top50 { margin-top: 50px; }
+.floatRight{ float:right; }
+.margin8 { top:20px;}
+.floatLeft { float:left; }
+.marginCenter { margin-right:auto; margin-left:auto; }
